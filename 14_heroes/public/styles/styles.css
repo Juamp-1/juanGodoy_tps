@@ -1,0 +1,39 @@
+body {
+  background-color: aliceblue;
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  font-size: 24px;
+  margin: 20px;
+}
+
+a {
+  color: cadetblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+ul,
+ol {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h1,
+h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+ul[type="square"] {
+  list-style: square;
+}
+
+ul[type="none"] {
+  list-style: none;
+}
